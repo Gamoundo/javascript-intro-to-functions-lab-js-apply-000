@@ -15,4 +15,11 @@ function sayHiToGrandma(string){
     return ("I love you, too")
   }
 
+if (string === string.toLowercase()){
+  return ("I can't hear you!")
+}
+if (string === string.toUppercase()){
+  return ("YES INDEED!")
+}
+
 }
